@@ -10,12 +10,11 @@ An animated, dotted globe for Power BI, drawn by **one DAX measure** and shown i
 
 ## Open the example
 
-[`example/RotatingGlobe.pbip`](example) is a ready-made Power BI project with the globe, the Play / Pause toggle and a continent slicer. It needs a recent version of Power BI Desktop.
+[`example/RotatingGlobe.pbip`](example) is a ready-made Power BI project with the globe, the Play / Pause toggle and a continent slicer. The sample data is stored inside the file, so there's nothing to set up. It needs a recent version of Power BI Desktop.
 
 1. Download or clone this repo.
 2. Open `example/RotatingGlobe.pbip` in Power BI Desktop.
-3. **Transform data → Edit parameters** → set **DataFolder** to the repo's `data` folder, ending with a backslash, for example `C:\Downloads\powerbi-rotating-globe\data\`.
-4. **Apply changes** (or **Refresh**). The globe appears and starts turning.
+3. Click **Refresh now** in the yellow banner. Power BI projects don't store data, so the first time you open one it needs a refresh. The globe's bubbles then appear and start turning.
 
 ## Quick start (no Python needed)
 
@@ -109,7 +108,7 @@ The `Globe` measure loops over the rows with `CONCATENATEX`, builds one bubble p
 data/sample-countries.csv   32 countries: name, continent, lat/lon, 2023 fossil CO₂ (Mt)
 data/globe-data.csv         the same rows + geometry columns → load this into Power BI
 dax/Globe.dax               Globe measure, Globe motion table, Globe live measure
-example/RotatingGlobe.pbip  ready-made Power BI project (set the DataFolder parameter)
+example/RotatingGlobe.pbip  ready-made Power BI project, sample data built in
 land/globe-static.txt       land dots + sphere (already inside the Globe measure)
 preview.svg                 what the Globe measure draws for the sample data
 scripts/make_globe_data.py  adds the geometry columns, writes Globe.dax and preview.svg

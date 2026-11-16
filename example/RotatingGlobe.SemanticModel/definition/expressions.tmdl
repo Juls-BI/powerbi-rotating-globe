@@ -1,8 +1,0 @@
-/// Folder that contains globe-data.csv (with a trailing backslash). Set it in Transform data > Edit parameters.
-expression DataFolder = "C:\path\to\powerbi-rotating-globe\data\" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
-	lineageTag: 03b5d61c-cb3a-57d7-a8f1-28300af61936
-
-	annotation PBI_ResultType = Text
-
-	annotation PBI_NavigationStepName = Navigation
-

@@ -8,7 +8,7 @@ model Model
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Globe Data","DataFolder"]
+annotation PBI_QueryOrder = ["Globe Data"]
 
 ref table 'Globe Data'
 ref table 'Globe motion'
