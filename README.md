@@ -2,7 +2,7 @@
 
 An animated, dotted globe for Power BI, drawn by **one DAX measure** and shown in a standard **Image visual**. No custom visuals, no Azure Maps, no JavaScript.
 
-<p align="center"><img src="preview.svg" width="420" alt="A dotted grey globe slowly rotating, with grey bubbles sized by each country's fossil CO2 emissions"></p>
+<p align="center"><img src="images/globe-in-power-bi.png" width="520" alt="A Power BI visual titled Globe in Motion: a dotted grey globe with grey bubbles sized by each country's fossil CO2 emissions, and Play and Pause buttons above it"></p>
 
 - Bubbles are sized by any value, respond to slicers, and fade out as they pass behind the globe.
 - A **Play / Pause** toggle is included, in line with [WCAG 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide).
@@ -87,6 +87,8 @@ Seen from slightly above the equator, every line of latitude on a globe looks li
 2. Everything on the ring spins with SVG's `<animateTransform type="rotate">`, one turn every 70 seconds.
 3. Squashed, a dot circling its ring looks like it's travelling around the globe.
 
+<p align="center"><img src="preview.svg" width="320" alt="Animated preview: a dotted grey globe slowly rotating, with grey bubbles sized by each country's fossil CO2 emissions"></p>
+
 **Land** is drawn twice: a pale copy clipped to the far side, then a translucent sphere, then a darker copy clipped to the near side.
 
 **Bubbles** are placed using the columns that `make_globe_data.py` adds:
@@ -111,6 +113,7 @@ dax/Globe.dax               Globe measure, Globe motion table, Globe live measur
 example/RotatingGlobe.pbip  ready-made Power BI project, sample data built in
 land/globe-static.txt       land dots + sphere (already inside the Globe measure)
 preview.svg                 what the Globe measure draws for the sample data
+images/                     screenshots for this README
 scripts/make_globe_data.py  adds the geometry columns, writes Globe.dax and preview.svg
 scripts/make_land_dots.py   redraws the land dots
 ```
