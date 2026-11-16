@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+# Power BI working files
+*.pbix.bak
+.pbi/
+localSettings.json
+cache.abf

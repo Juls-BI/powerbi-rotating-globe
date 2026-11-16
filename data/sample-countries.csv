@@ -1,0 +1,33 @@
+iso_code,country,continent,lat,lon,co2_mt
+CHN,China,Asia,35.0,103.0,12303.1
+USA,United States,North America,39.0,-98.0,4924.1
+IND,India,Asia,22.0,79.0,3049.4
+RUS,Russia,Europe,60.0,95.0,1734.4
+JPN,Japan,Asia,36.0,138.0,986.3
+IRN,Iran,Asia,32.0,53.0,821.1
+IDN,Indonesia,Asia,-2.0,117.0,742.9
+SAU,Saudi Arabia,Asia,25.0,45.0,613.2
+KOR,South Korea,Asia,37.0,127.5,588.7
+DEU,Germany,Europe,51.0,9.0,591.4
+CAN,Canada,North America,57.0,-101.0,541.1
+BRA,Brazil,South America,-10.0,-52.0,485.7
+MEX,Mexico,North America,23.0,-102.0,478.3
+TUR,Turkey,Asia,39.0,35.0,445.1
+ZAF,South Africa,Africa,-29.0,24.0,442.8
+AUS,Australia,Oceania,-25.0,134.0,385.9
+GBR,United Kingdom,Europe,54.0,-2.0,307.4
+VNM,Vietnam,Asia,16.17,107.83,330.6
+ITA,Italy,Europe,42.83,12.83,309.3
+FRA,France,Europe,46.6,2.4,269.9
+POL,Poland,Europe,52.0,20.0,283.7
+EGY,Egypt,Africa,27.0,30.0,231.6
+ARG,Argentina,South America,-34.0,-64.0,188.8
+NGA,Nigeria,Africa,10.0,8.0,125.3
+PAK,Pakistan,Asia,30.0,70.0,213.2
+KAZ,Kazakhstan,Asia,48.0,68.0,286.0
+THA,Thailand,Asia,15.0,100.0,260.9
+ESP,Spain,Europe,40.0,-4.0,211.7
+NZL,New Zealand,Oceania,-41.0,174.0,31.3
+CHL,Chile,South America,-30.0,-71.0,75.2
+KEN,Kenya,Africa,1.0,38.0,21.5
+QAT,Qatar,Asia,25.5,51.25,97.8

@@ -1,0 +1,28 @@
+table 'Globe motion'
+	lineageTag: 37cb9766-1a3c-5137-94ca-be0b92dae82a
+
+	column Motion
+		dataType: string
+		lineageTag: 87e36592-c42c-54a9-9cf3-a2a94b88c16b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Motion]
+		sortByColumn: Order
+
+		annotation SummarizationSetBy = Automatic
+
+	column Order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 663d2fba-0362-5040-b73d-69af0e79a935
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Order]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Globe motion' = calculated
+		mode: import
+		source = DATATABLE ( "Motion", STRING, "Order", INTEGER, { { "Play", 1 }, { "Pause", 2 } } )
+

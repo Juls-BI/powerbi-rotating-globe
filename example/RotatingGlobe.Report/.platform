@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "RotatingGlobe"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d3c203d2-5780-4cbf-9714-9e1fe63b1096"
+  }
+}
